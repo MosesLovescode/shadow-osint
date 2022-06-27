@@ -24,3 +24,15 @@ if finds associated domains
 Usage:
 
 info - IP-address
+
+
+note: Shadow osint has also been bundled to a windows excutable 
+
+you can also build it for windows using pyinstaller using the following commands
+
+pip install pyintaller
+pyinstaller --onefile --windowed shadow.py  
+
+for linux 
+
+you can run it directly (slower) or use the cython compiler
